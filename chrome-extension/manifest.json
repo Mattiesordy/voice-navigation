@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "SRI for websites",
+  "description": "This extension uses the Web Speech API to navigate websites.",
+  "version": "0.0.0.1",
+
+  "permissions": [
+    "https://secure.flickr.com/"
+  ],
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  }
+}
